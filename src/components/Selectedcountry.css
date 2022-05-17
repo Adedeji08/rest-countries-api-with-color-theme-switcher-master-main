@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+.grids{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    @media (min-width: 376px){
+        .arr3{
+           display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 60px;
+            margin-left: 500px;
+            margin-top: -280px;
+        }
+    }
+    
+    .imgg{
+        width: 400px;
+        height: 280px;
+        border-top-left-radius: 7px;
+       border-top-right-radius: 7px;
+    }
+    @media (max-width: 375px){
+        .imgg{
+            width: 100%;
+            height: 280px;
+            border-top-left-radius: 7px;
+           border-top-right-radius: 7px;
+        }
+    }
+   
+    .down{
+        margin-top: 80px;
+    }
+    .text3{
+        opacity: 0.5;
+    }
+    .text2{
+         font-size: 10px;
+         font-weight: 500;
+    }
+   
+    .back{
+        background-color: var(--background-color);
+        color: var(--text-color);
+        box-shadow: 0 0 7px 2px #24110098;
+        border: none;
+        width: 79px;
+        height: 4vh;
+    }
+    
+    .text5{
+        opacity: 0.5;
+        border-color: white;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .text4{
+         font-size: 10px;
+         font-weight: 500;
+         
+    }
+    @media (min-width: 376px){
+    .forward{ 
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: row;
+        align-items: center;
+    }}
+       
+    @media (max-width: 375px){
+        .forward{
+            width: 100%;
+            margin-top: 50px;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+    .ice{
+        font-size: 10px;
+        text-align: center;
+        width: 80px;
+        justify-items: center;
+        background-color: var(--background-color);
+        box-shadow: 0 0 7px 2px #24110098;
+        color: var(--text-color);
+        margin-left: 5px;
+        border: solid;
+       outline: 1px solid var(--accent);
+        border-color: var(--accent);
+    }
+    .text-me{
+        font-size: 10px;
+        width: 55%;
+        font-weight: 500; 
+    }
